@@ -24,7 +24,7 @@ const backgroundVideo=getBackgroundVideo(weatherType,description,isNight);
 
 
 useEffect(()=>{
-   const API_KEY="fa5caca4a88942516e96f0141c11d2fb";
+   const API_KEY=import.meta.env.VITE_WEATHER_API_KEY;
    navigator.geolocation.getCurrentPosition(
    async (position)=>{
       const lat = position.coords.latitude;

@@ -68,6 +68,7 @@
     align-items:center;
     text-align:center;
     gap:14px;
+    color:white;
 }
 
 .weather-icon{
